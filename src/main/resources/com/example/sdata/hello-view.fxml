@@ -14,10 +14,10 @@
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
     </padding>
     <Text>Přidej Item</Text>
-    <TextField text="Přidej Item"></TextField>
+    <TextField fx:id="pridejItemText" text="Přidej Item"></TextField>
     <Button text="Přidej" fx:id="AddButton" onAction="#AddButtonClick"/>
     <Text>Kontrola itemu</Text>
-    <TextField text="Kontrola"></TextField>
+    <TextField fx:id="kontrolaText" text="Kontrola"></TextField>
     <Button text="Zkontroluj" fx:id="KontrolaButtonClick" onAction="#KontrolaButtonClick"/>
     <TextArea fx:id="Vystup" text="Vystup"/>
 </VBox>
